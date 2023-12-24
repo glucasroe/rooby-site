@@ -1,0 +1,22 @@
+@import "setup/normalize";
+@import "setup/variables";
+  @import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap');
+
+html{
+    background-color: hsl(104, 35%, 47%);
+}
+
+h1{
+    width: 100%;
+    font-family:'Grandiflora One', cursive, Georgia;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+img{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    max-width: 650px;
+}
